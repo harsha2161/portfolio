@@ -46,39 +46,46 @@ export default function Contacts({ isDarkMode }: any) {
 
                 <div className="flex-1 flex flex-col gap-8 w-full mt-4 md:mt-8">
                     <div className="flex items-center gap-6 group">
-                        <div className="bg-gray-200 dark:bg-darkHover/50 p-4 rounded-xl text-gray-700 hover:text-black dark:text-gray-300 dark:hover:text-white shadow-sm transition-transform hover:scale-105 duration-300">
+                        <div className="bg-gray-200 dark:bg-darkHover/50 p-4 rounded-xl text-gray-700 hover:text-black dark:text-gray-300 
+                        dark:hover:text-white shadow-sm transition-transform hover:scale-105 duration-300">
                             <FiMail className="text-2xl" />
                         </div>
                         <div>
                             <h3 className="text-xl font-bold dark:text-white">Email</h3>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prabhathharsha77@gmail.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">prabhathharsha77@gmail.com</a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prabhathharsha77@gmail.com" target="_blank" 
+                            className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">prabhathharsha77@gmail.com</a>
                         </div>
                     </div>
 
                     <div className="flex items-center gap-6 group">
-                        <div className="bg-gray-200 dark:bg-darkHover/50 p-4 rounded-xl text-gray-700 hover:text-black dark:text-gray-300 dark:hover:text-white shadow-sm transition-transform hover:scale-105 duration-300">
+                        <div className="bg-gray-200 dark:bg-darkHover/50 p-4 rounded-xl text-gray-700 hover:text-black dark:text-gray-300 dark:hover:text-white 
+                        shadow-sm transition-transform hover:scale-105 duration-300">
                             <FiPhone className="text-2xl" />
                         </div>
                         <div>
                             <h3 className="text-xl font-bold dark:text-white">Phone</h3>
-                            <a href="tel:+94771234567" className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">+94 77 123 4567</a>
+                            <a href="tel:+94771234567" className="text-gray-600 dark:text-gray-300 hover:text-black 
+                            dark:hover:text-white transition-colors">+94 77 123 4567</a>
                         </div>
                     </div>
 
                     <div className="flex items-center gap-6 group">
-                        <div className="bg-gray-200 dark:bg-darkHover/50 p-4 rounded-xl text-gray-700 hover:text-black dark:text-gray-300 dark:hover:text-white shadow-sm transition-transform hover:scale-105 duration-300">
+                        <div className="bg-gray-200 dark:bg-darkHover/50 p-4 rounded-xl text-gray-700 hover:text-black
+                         dark:text-gray-300 dark:hover:text-white shadow-sm transition-transform hover:scale-105 duration-300">
                             <FiGithub className="text-2xl" />
                         </div>
                         <div>
                             <h3 className="text-xl font-bold dark:text-white">GitHub</h3>
-                            <a href="https://github.com/harsha2161" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">github.com/harsha2161</a>
+                            <a href="https://github.com/harsha2161" target="_blank" rel="noopener noreferrer" className="text-gray-600 
+                            dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">github.com/harsha2161</a>
                         </div>
                     </div>
                 </div>
 
 
                 <div className="flex-2 w-full -mt-2 md:-mt-6">
-                    <form className="w-full bg-white/50 dark:bg-darkTheme/50 p-8 pb-0 rounded-2xl shadow-sm border border-gray-100 dark:border-white/10 backdrop-blur-sm" onSubmit={onSubmit}>
+                    <form className="w-full bg-white/50 dark:bg-darkTheme/50 p-8 pb-0 rounded-2xl shadow-sm border border-gray-100 
+                    dark:border-white/10 backdrop-blur-sm" onSubmit={onSubmit}>
                         <div className="grid grid-cols gap-6 mb-2">
                             <div className="flex flex-col sm:flex-row gap-4">
                                 <input type="text" placeholder="Enter Your Name" required
