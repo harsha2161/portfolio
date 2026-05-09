@@ -8,9 +8,6 @@ export default function Projucts({ isDarkMode }: any){
             
             <h2 className="text-center text-5xl font-bold">My latest work</h2>
 
-            <p className="text-center max-w-2xl mx-auto mt-5 mb-12"> wellcome to my web
-            evelopment protfolio..!</p>
-
             <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] my-10 gap-5">
                 {workData.map((project, index)=>(
                 <div className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group" key={index} style={{backgroundImage : `url(${project.bgImage})`}}>
@@ -30,7 +27,7 @@ export default function Projucts({ isDarkMode }: any){
                 ))}
             </div>
                 
-                <a href="" className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 
+                <a href="#projucts" className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 
                 px-10 mx-auto hover:bg-lightHover dark:text-white dark:border-white dark:hover:bg-darkHover">Show more {isDarkMode ? <FaLocationArrow />: <FaLocationArrow/>} </a>
 
         </div>

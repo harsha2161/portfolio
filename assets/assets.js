@@ -30,22 +30,31 @@ export const workData = [
 
 import { FaCode, FaGraduationCap, FaProjectDiagram } from 'react-icons/fa';
 import { VscVscode } from 'react-icons/vsc';
-import { SiFirebase, SiFigma, SiGit, SiMongodb } from 'react-icons/si';
-import { FiMonitor, FiSmartphone, FiLayout, FiPenTool } from 'react-icons/fi';
-
-export const serviceData = [
-    { icon: FiMonitor, title: 'Full staks Developmrt', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: FiSmartphone, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: FiLayout, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: FiPenTool, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
+import { SiMongodb, SiKubernetes } from 'react-icons/si';
+import { FiFigma} from 'react-icons/fi';
 
 export const infoList = [
+
     { icon: FaCode, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js,OOP' },
     { icon: FaGraduationCap, title: 'Education', description: 'Bsc Hons Software Engineering university of kelaniya' },
     { icon: FaProjectDiagram, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    VscVscode, SiFirebase, SiMongodb, SiFigma, SiGit
+    {icon : VscVscode,
+     name : "vs code"
+    },
+     {icon : FiFigma,
+     name : "Figma UI/UX"
+    },
+     {icon : SiMongodb,
+     name : "Mongo DB"
+    },
+     {icon : SiKubernetes,
+     name : "Kuber -nets"
+    },
+     {icon : VscVscode,
+     name : "vs code"
+    }
+     
 ];

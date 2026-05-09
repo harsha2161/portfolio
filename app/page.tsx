@@ -6,7 +6,8 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar"
 import Projucts from "./components/Projucts";
-import Service from "./components/service";
+import Skills from "./components/skills";
+import Education from "./components/education";
 
 export default function Home() {
 
@@ -40,6 +41,8 @@ export default function Home() {
       <Navbar isDarkMode={isDarkMode} setDarkMode={setDarkMode} />
       <Header isDarkMode={isDarkMode} />
       <About isDarkMode={isDarkMode} />
+      <Skills isDarkMode={isDarkMode} />
+      <Education isDarkMode={isDarkMode} />
       <Projucts isDarkMode={isDarkMode} />
       <Contacts isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />
