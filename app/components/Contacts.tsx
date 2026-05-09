@@ -64,7 +64,7 @@ export default function Contacts({ isDarkMode }: any) {
                         </div>
                         <div>
                             <h3 className="text-xl font-bold dark:text-white">Phone</h3>
-                            <a href="tel:+94771234567" className="text-gray-600 dark:text-gray-300 hover:text-black 
+                            <a href="tel:0765737107" className="text-gray-600 dark:text-gray-300 hover:text-black 
                             dark:hover:text-white transition-colors">0765737107</a>
                         </div>
                     </div>
