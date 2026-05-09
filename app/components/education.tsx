@@ -4,8 +4,6 @@ export default function Education({ isDarkMode }: any){
         <div id="education" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-10">
             <h2 className="text-center text-5xl font-bold pb-20">Education</h2>  
 
-    { isDarkMode } {
-
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
        
         <div className="flex flex-col gap-6">
@@ -47,8 +45,6 @@ export default function Education({ isDarkMode }: any){
           <h2 className="text-2xl font-bold mb-2">Certifications</h2>
         </div>
       </div>
-    }
-
 </div>
     )
 }
