@@ -4,7 +4,7 @@ import { FaCss3Alt, FaFigma, FaHtml5, FaJava, FaJsSquare, FaPhp, FaReact } from 
 import { FaDocker } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiSpring } from "react-icons/si";
+import { SiSpring, SiKubernetes } from "react-icons/si";
 
 export default function Skills({ isDarkMode }: any){
     return(
@@ -79,6 +79,9 @@ export default function Skills({ isDarkMode }: any){
                         </div>
                         <div className="flex flex-col items-center justify-center gap-2">
                             <FaFigma   className="text-5xl text-pink-500"/> <p className="text-sm font-medium">Figma</p>
+                        </div>
+                        <div className="flex flex-col items-center justify-center gap-2">
+                            <SiKubernetes className="text-5xl text-blue-600"/> <p className="text-sm font-medium">Kubernetes</p>
                         </div>
                     </div>
                 </div>
