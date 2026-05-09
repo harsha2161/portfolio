@@ -1,5 +1,5 @@
-import { assets, serviceData } from "@/assets/assets";
-import Image from "next/image";
+import { serviceData } from "@/assets/assets";
+import { FiArrowRight } from "react-icons/fi";
 
 export default function Service({ isDarkMode }: any){
     return(
@@ -10,15 +10,15 @@ export default function Service({ isDarkMode }: any){
             Proficient in MERN stack, object-oriented programming</p>   
 
 <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6 my-10">                
-                {serviceData.map(({icon, title, description, link}, index) => (
+                {serviceData.map(({icon: Icon, title, description, link}, index) => (
                   
                   <div key={index} className="border border-gray-400 rounded-lg px-8 py-12
                     hover:shadow-2xl cursor-pointer hover:bg-gray-300 dark:hover:bg-darkHover dark:hover:shadow-white">
-                        <Image src={icon} alt="" className="w-10" />
+                        <Icon className="text-3xl text-black dark:text-white" />
                         <h3 className="text-lg my-4 text-gray-700 dark:text-white">{title}</h3>
                         <p className="text-sm text-gray-900 leading-5 dark:text-white/80">{description}</p>
                         <a href={link} className="flex items-center gap-2 text-sm mt-5">Read more 
-                        <Image src={isDarkMode ? assets.right_arrow_white : assets.right_arrow} alt="" className="w-4 " /> </a>
+                        <FiArrowRight className="w-4 h-4 text-black dark:text-white" /> </a>
 
                     </div>
                 ))}

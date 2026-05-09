@@ -1,6 +1,6 @@
-import { assets, workData } from "@/assets/assets";
-import Image from "next/image";
+import { workData } from "@/assets/assets";
 import { FaLocationArrow } from "react-icons/fa";
+import { FiSend } from "react-icons/fi";
 
 export default function Projucts({ isDarkMode }: any){
     return(
@@ -22,7 +22,7 @@ export default function Projucts({ isDarkMode }: any){
 
                         <div className="border rounded-full border-black w-9 aspect-square flex items-center 
                         justify-center shadow-[2px_2px_0_#000] group-hover:bg-gray-300 transition">
-                            <Image src={assets.send_icon} alt="" className="w-5"/>
+                            <FiSend className="text-xl text-black" />
                         </div>
                     </div>
                        

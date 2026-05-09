@@ -1,5 +1,6 @@
 import {assets} from '@assets/assets'
 import Image from "next/image";
+import { FiArrowRight, FiDownload } from "react-icons/fi";
 
 export default function Header({ isDarkMode }: any){
     return(
@@ -17,10 +18,10 @@ export default function Header({ isDarkMode }: any){
 
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <a href="#contect" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>
-                contact me<Image src={assets.right_arrow_white} alt="" className='w-4'/></a>
+                contact me<FiArrowRight className="text-lg" /></a>
 
                 <a href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:bg-white dark:text-black'>
-                my resume<Image src={assets.download_icon} alt="" className='w-4'/></a>
+                my resume<FiDownload className="text-lg" /></a>
             </div>
             
         </div>

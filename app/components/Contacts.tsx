@@ -1,6 +1,6 @@
-import { assets } from "@/assets/assets";
-import Image from "next/image";
+
 import React from "react";
+import { FiArrowRight } from "react-icons/fi";
 
 
 export default function Contacts({ isDarkMode }: any){
@@ -62,7 +62,7 @@ export default function Contacts({ isDarkMode }: any){
                     
                     <button type="submit" className="py-3 px-8 w-max flex items-center justify-between gap-2 
                     bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover">
-                    Submit now <Image src={assets.right_arrow_white} alt="" /> </button>
+                    Submit now <FiArrowRight className="text-xl" /> </button>
                    
 
                     <p className="mt-4 font-bold text-green-600">{result}</p>

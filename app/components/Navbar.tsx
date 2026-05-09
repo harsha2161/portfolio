@@ -5,12 +5,13 @@ import { PiSunDimFill } from "react-icons/pi";
 import { IoMdMoon } from "react-icons/io";
 import { FaLocationArrow } from 'react-icons/fa';
 import { MdOutlineArrowForwardIos } from "react-icons/md";
+import { FiMenu, FiX } from "react-icons/fi";
 
 
 export default function Navbar({ isDarkMode, setDarkMode }: any){
 
     const [isScroll , setIsScroll] = useState(false)
-    const sideMenuRef = useRef<any>();
+    const sideMenuRef = useRef<any>(null);
     
     const openMenu = () =>{
         sideMenuRef.current.style.transform = 'translateX(-16rem)'
@@ -69,7 +70,7 @@ export default function Navbar({ isDarkMode, setDarkMode }: any){
                 {isDarkMode ? <MdOutlineArrowForwardIos/> : <MdOutlineArrowForwardIos/> }</a>
 
                 <button className='block md:hidden ml-3' onClick={openMenu}>
-                    <Image src={isDarkMode ? assets.menu_white : assets.menu_black} alt='' className='w-6'/>
+                    <FiMenu className='text-2xl text-black dark:text-white'/>
                 </button>
             </div>
 
@@ -84,7 +85,7 @@ export default function Navbar({ isDarkMode, setDarkMode }: any){
                     </button>
                     
                     <button onClick={closeMenu}>
-                        <Image src={isDarkMode ? assets.close_white : assets.close_black} alt='' className='cursor-pointer w-5' />
+                        <FiX className='cursor-pointer text-2xl text-black dark:text-white' />
                     </button>
                 </div>
 
