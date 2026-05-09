@@ -43,11 +43,8 @@ export default function Navbar({ isDarkMode, setDarkMode }: any){
         <nav className={`w-full fixed top-0 px-4 py-4 lg:px-8 xl:px-[8%] flex items-center justify-between z-50 transition-all duration-300
              ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme/50 dark:shadow-white/20 h-[60px]" : " "}`} >
             
-            <a href="#top">
-               
-               <h1 className="text-4xl font-extrabold text-transparent bg-clip-text 
-               bg-gradient-to-r from-blue-600 to-purple-600 tracking-tighter select-none cursor-pointer">Harsha</h1>
-            </a>
+            <a href="#top"><h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600
+             tracking-tighter select-none cursor-pointer">Harsha</h1></a>
 
             <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3
              ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"} `}>
@@ -57,7 +54,7 @@ export default function Navbar({ isDarkMode, setDarkMode }: any){
                 <li><a className='font-bold' href="#skill">Skills</a></li>
                 <li><a className='font-bold' href="#education">Education</a></li>
                 <li><a className='font-bold'href="#projucts">projects</a></li>
-                <li><a className='font-bold' href="#contect">Contect me</a></li>
+                <li><a className='font-bold' href="#contect">Contect</a></li>
 
             </ul>
 

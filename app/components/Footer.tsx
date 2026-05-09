@@ -1,4 +1,5 @@
 
+import { FaArrowUp } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 export default function Footer({ isDarkMode }: any){
@@ -25,7 +26,7 @@ export default function Footer({ isDarkMode }: any){
                     <li><a target="_blank" href="https://www.linkedin.com/in/hrha/">Linkden</a></li>
                 </ul>
             </div>
-
+           
         </div>
     )
 }

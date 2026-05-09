@@ -10,7 +10,8 @@ export default function Projucts({ isDarkMode }: any){
 
             <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] my-10 gap-5">
                 {workData.map((project, index)=>(
-                <div className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group" key={index} style={{backgroundImage : `url(${project.bgImage})`}}>
+                <a href={project.link}>
+                    <div className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group border-2" key={index} style={{backgroundImage : `url(${project.bgImage})`}}>
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7 ">
                         <div>
                             <h2 className="font-semibold text-black">{project.title}</h2>
@@ -24,6 +25,8 @@ export default function Projucts({ isDarkMode }: any){
                     </div>
                        
                 </div>
+                </a>
+                
                 ))}
             </div>
                 

@@ -1,5 +1,6 @@
 
 import React from "react";
+import { FaArrowUp } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
 
 
@@ -66,11 +67,8 @@ export default function Contacts({ isDarkMode }: any){
                    
 
                     <p className="mt-4 font-bold text-green-600">{result}</p>
-                </div>
+                </div>         
             </form>
-
-
-       
         </div>
     )
 }

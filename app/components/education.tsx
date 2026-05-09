@@ -17,7 +17,6 @@ export default function Education({ isDarkMode }: any){
 
             <div className="flex justify-between items-center text-lg">
               <span>University of Kelaniya</span>
-              <span className="font-semibold text-base">CGPA: 3.90/4.0</span>
             </div>
             
             <p className={`leading-relaxed ${ isDarkMode ? "text-gray-400" : "text-slate-500"}`}>Specializing in Net-Centric Web Application
@@ -27,22 +26,22 @@ export default function Education({ isDarkMode }: any){
           <div className={`p-6 rounded-xl border shadow-sm flex flex-col gap-4 ${isDarkMode ? "bg-gray-800 border-gray-700" : "bg-white border-gray-100"}`}>
             <div className="flex justify-between items-center gap-4">
               <h3 className="text-xl font-bold">GCE Advanced Level</h3>
-              <span className={`text-sm text-right ${ isDarkMode ? "text-gray-400" : "text-slate-500"}`}>2019 - 2022</span>
+              <span className={`text-sm text-right ${ isDarkMode ? "text-gray-400" : "text-slate-500"}`}>2019 - 2021</span>
             </div>
 
             <div className="flex justify-between items-center text-lg">
-              <span>Bandarawela Central College</span>
-              <span className="font-semibold text-base">Z-Score: 1.6086</span>
+              <span>Royal collage Monaragala</span>
+              <span className="font-semibold text-base">Z-Score: 1.57</span>
             </div>
 
-            <p className={`leading-relaxed ${ isDarkMode ? "text-gray-400" : "text-slate-500" }`}>Completed coursework in Mathematics, Chemistry, and Physics</p>
+            <p className={`leading-relaxed ${ isDarkMode ? "text-gray-400" : "text-slate-500" }`}>Mathematics, Chemistry, Physics</p>
           </div>
 
         </div>
 
       
         <div className="flex flex-col gap-4">
-          <h2 className="text-2xl font-bold mb-2">Certifications</h2>
+          <h2 className="text-2xl font-bold mb-2 border-b-2">Certifications</h2>
         </div>
       </div>
 </div>

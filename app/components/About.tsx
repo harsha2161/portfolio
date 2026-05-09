@@ -22,13 +22,16 @@ export default function About({ isDarkMode }: any){
                     </p>
 
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl '>
-                        {infoList.map(({icon: Icon, title , description }, index)=>(
-                            <li key={index} className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer
-                            hover:bg-gray-300 hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
+                        {infoList.map(({icon: Icon, title , description , link }, index)=>(
+                            <a href={link}  key={index}>
+                            <li className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer
+                                hover:bg-gray-300 hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
                                 <Icon className='text-3xl mt-3 text-black dark:text-white' />
                                 <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>{title}</h3>
                                 <p className='text-gray-600 text-sm dark:text-white/80'>{description}</p>
                             </li>
+                            </a>
+                            
 
                         ))}
                     </ul>

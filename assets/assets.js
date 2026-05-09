@@ -13,18 +13,27 @@ export const workData = [
     {
         title: 'Gift Lovers E-commerce websites',
         description: 'MERN staks',
-        bgImage: '/work-1.png',
+        bgImage: '/gift_lovers.png',
+        link : 'https://github.com/harsha2161/Gift_Lovers_E-commerce-platform',
     },
    
     {
         title: 'Hrsh OS',
         description: 'Assemble Language',
-        bgImage: '/work-3.png',
+        bgImage: '/os.png',
+        link : 'https://github.com/harsha2161/hrshOS',
     },
     {
         title: 'My Portfolio',
         description: 'NEXT JS',
-        bgImage: '/work-4.png',
+        bgImage: '/portfolio.png',
+        link : 'https://github.com/harsha2161/portfolio',
+    },
+     {
+        title: '3D-ArtGallery',
+        description: 'HTML , JS',
+        bgImage: '/3D_art.png',
+        link : 'https://github.com/harsha2161/3D-ArtGallery',
     },
 ]
 
@@ -35,9 +44,9 @@ import { FiFigma} from 'react-icons/fi';
 
 export const infoList = [
 
-    { icon: FaCode, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js,OOP' },
-    { icon: FaGraduationCap, title: 'Education', description: 'Bsc Hons Software Engineering university of kelaniya' },
-    { icon: FaProjectDiagram, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: FaCode, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js,OOP' ,link : "" },
+    { icon: FaGraduationCap, title: 'Education', description: 'Software Engineering university of kelaniya', link : "#education" },
+    { icon: FaProjectDiagram, title: 'Projects', description: 'Built more than 5 projects' , link : "#projucts" }
 ];
 
 export const toolsData = [

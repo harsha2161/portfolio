@@ -20,7 +20,7 @@ export default function Header({ isDarkMode }: any){
                 <a href="#contect" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>
                 contact me<FiArrowRight className="text-lg" /></a>
 
-                <a href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:bg-white dark:text-black'>
+                <a href="/harsha_cv.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:bg-white dark:text-black'>
                 my resume<FiDownload className="text-lg" /></a>
             </div>
             
