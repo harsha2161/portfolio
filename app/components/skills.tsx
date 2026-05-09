@@ -8,14 +8,12 @@ import { SiSpring } from "react-icons/si";
 
 export default function Skills({ isDarkMode }: any){
     return(
-        <div id="skill" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-5">
-            <h2 className="text-center text-5xl font-bold">My Skills</h2>  
+        <div id="skill" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-10">
+            <h2 className="text-center text-5xl font-bold pb-[100px]">My Skills</h2>  
 
-            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 ">Here are the technologies and tools I work with</p>   
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">                
               
-                {/* Frontend Development Card */}
                 <div className="border border-gray-400 rounded-lg px-6 py-8 h-full w-full
                 hover:shadow-2xl cursor-pointer hover:-translate-y-2 transition-all duration-500 hover:bg-gray-300 dark:hover:bg-darkHover dark:hover:shadow-white">    
                     <h1 className="mb-8 font-bold border-b-2 border-gray-400 pb-2 text-center text-xl">Frontend Development</h1>
@@ -38,7 +36,7 @@ export default function Skills({ isDarkMode }: any){
                     </div>
                 </div>
                  
-                {/* Backend Development Card */}
+                
                 <div className="border border-gray-400 rounded-lg px-6 py-8 h-full w-full
                 hover:shadow-2xl cursor-pointer hover:-translate-y-2 transition-all duration-500 hover:bg-gray-300 dark:hover:bg-darkHover dark:hover:shadow-white">
                     <h1 className="mb-8 font-bold border-b-2 border-gray-400 pb-2 text-center text-xl">Backend Development</h1>
@@ -58,7 +56,7 @@ export default function Skills({ isDarkMode }: any){
                     </div>
                 </div>
 
-                {/* Tools & Databases Card */}
+    
                 <div className="border border-gray-400 rounded-lg px-6 py-8 h-full w-full
                 hover:shadow-2xl cursor-pointer hover:-translate-y-2 transition-all duration-500 hover:bg-gray-300 dark:hover:bg-darkHover dark:hover:shadow-white">
                     <h1 className="mb-8 font-bold border-b-2 border-gray-400 pb-2 text-center text-xl">Tools & Databases</h1>
