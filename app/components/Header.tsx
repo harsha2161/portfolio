@@ -8,10 +8,9 @@ export default function Header({ isDarkMode }: any){
             <div>
                 <Image src={assets.profile_img} alt="" className='rounded-full w-38 h-50  object-cover'/>
             </div>
-
           
-            <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-poppins font-extrabold '>
-            Full Stack Developer Base In Srikanka.</h1>
+            <h1 className='text-3xl sm:text-6xl lg:text-5xl font-poppins font-extrabold '>
+            Software Engineering Undergraduate | Full Stack Developer</h1>
 
             <p className='max-w-2xl mx-auto'>A current software engineering undergraduate at the 
             University of Kelaniya, with academic training in software development.</p>

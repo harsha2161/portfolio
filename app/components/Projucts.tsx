@@ -4,7 +4,7 @@ import { FiSend } from "react-icons/fi";
 
 export default function Projucts({ isDarkMode }: any){
     return(
-        <div id="projucts" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-20 scroll-mt-5">
+        <div id="projucts" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-20 scroll-mt-15">
             
             <h2 className="text-center text-5xl font-bold">My latest work</h2>
 

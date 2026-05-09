@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About({ isDarkMode }: any){
     return(
-        <div id="about" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-1">
+        <div id="about" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-10">
            
             <h2 className="text-center mt-5 text-5xl font-bold">About Me</h2>
         

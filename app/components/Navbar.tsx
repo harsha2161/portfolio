@@ -3,7 +3,6 @@ import {assets} from '@assets/assets'
 import { useEffect, useRef, useState } from 'react'
 import { PiSunDimFill } from "react-icons/pi";
 import { IoMdMoon } from "react-icons/io";
-import { FaLocationArrow } from 'react-icons/fa';
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { FiMenu, FiX } from "react-icons/fi";
 
@@ -53,7 +52,7 @@ export default function Navbar({ isDarkMode, setDarkMode }: any){
                 <li><a className='font-bold' href="#about">About</a></li>
                 <li><a className='font-bold' href="#skill">Skills</a></li>
                 <li><a className='font-bold' href="#education">Education</a></li>
-                <li><a className='font-bold'href="#projucts">projects</a></li>
+                <li><a className='font-bold'href="#projucts">Projects</a></li>
                 <li><a className='font-bold' href="#contect">Contect</a></li>
 
             </ul>
