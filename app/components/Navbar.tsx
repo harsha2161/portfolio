@@ -33,7 +33,9 @@ export default function Navbar({ isDarkMode, setDarkMode }: any){
             <Image src={assets.header_bg_color} alt='' className='w-full'/>
         </div>
 
-        <nav className={`w-full fixed top-0 px-4 py-4 lg:px-8 xl:px-[8%] flex items-center justify-between z-50 transition-all duration-300 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme/50 dark:shadow-white/20" : " "}`} >
+        <nav className={`w-full fixed top-0 px-4 py-4 lg:px-8 xl:px-[8%] flex items-center justify-between z-50 transition-all duration-300
+             ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme/50 dark:shadow-white/20 h-[60px]" : " "}`} >
+            
             <a href="#top">
                
                <h1 className="text-4xl font-extrabold text-transparent bg-clip-text 

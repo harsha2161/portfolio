@@ -3,10 +3,9 @@ import Image from "next/image";
 
 export default function Projucts({ isDarkMode }: any){
     return(
-        <div id="projucts" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-5">
+        <div id="projucts" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-20 scroll-mt-5">
             
-            <h4 className="text-center mb-2 text-lg">My Portfolio</h4>
-            <h2 className="text-center text-5xl">My latest work</h2>
+            <h2 className="text-center text-5xl font-bold">My latest work</h2>
 
             <p className="text-center max-w-2xl mx-auto mt-5 mb-12"> wellcome to my web
             evelopment protfolio..!</p>

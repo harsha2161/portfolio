@@ -4,8 +4,7 @@ import Image from "next/image";
 export default function Service({ isDarkMode }: any){
     return(
         <div id="service" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-20">
-            <h4 className="text-center mb-2 text-lg">What i'm offer</h4>
-            <h2 className="text-center text-5xl">My services</h2>  
+            <h2 className="text-center text-5xl font-bold">My services</h2>  
 
             <p className="text-center max-w-2xl mx-auto mt-5 mb-12 ">A current software engineering undergraduate at the University of Kelaniya, with academic training in software development.
             Proficient in MERN stack, object-oriented programming</p>   
