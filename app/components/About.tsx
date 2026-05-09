@@ -42,6 +42,7 @@ export default function About({ isDarkMode }: any){
                     </ul>
                 </div>
             </div>
+           
         </div>
     ) 
 }

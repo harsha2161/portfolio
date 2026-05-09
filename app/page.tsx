@@ -33,13 +33,13 @@ export default function Home() {
       }
     }
   }, [isDarkMode, isMounted])
+  
 
   return (
     <>
       <Navbar isDarkMode={isDarkMode} setDarkMode={setDarkMode} />
       <Header isDarkMode={isDarkMode} />
       <About isDarkMode={isDarkMode} />
-      <Service isDarkMode={isDarkMode} />
       <Projucts isDarkMode={isDarkMode} />
       <Contacts isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />

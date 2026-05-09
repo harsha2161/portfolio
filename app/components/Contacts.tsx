@@ -1,29 +1,32 @@
 import { assets } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
-import { useState } from "react";
+
 
 export default function Contacts({ isDarkMode }: any){
-      const [result, setResult] = React.useState("");
 
-  const onSubmit = async (event: any) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
+    const [result, setResult] = React.useState("");
 
-    formData.append("access_key", "ba934708-d279-4fc1-9223-079ba39c205a");
+    const onSubmit = async (event: any) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
+        formData.append("access_key", "ba934708-d279-4fc1-9223-079ba39c205a");
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+        });
 
     const data = await response.json();
 
     if (data.success) {
+
       setResult("Form Submitted Successfully");
       event.target.reset();
-    } else {
+    }else{
+
       console.log("Error", data);
       setResult(data.message);
     }
@@ -34,7 +37,7 @@ export default function Contacts({ isDarkMode }: any){
         <div id="contect" className='w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-20 
         bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none'>
 
-            <h2 className="text-center text-5xl">Get in touch</h2>
+            <h2 className="text-center text-5xl font-bold">Get in touch</h2>
            
             <p className="text-center max-w-2xl mx-auto mt-5 mb-12">We would love to hear from you. 
             Please use the form below for any questions, comments, or feedback.</p>
@@ -59,7 +62,8 @@ export default function Contacts({ isDarkMode }: any){
                     
                     <button type="submit" className="py-3 px-8 w-max flex items-center justify-between gap-2 
                     bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover">
-                    Submit now <Image src={assets.right_arrow_white} alt=""/> </button>
+                    Submit now <Image src={assets.right_arrow_white} alt="" /> </button>
+                   
 
                     <p className="mt-4 font-bold text-green-600">{result}</p>
                 </div>

@@ -1,5 +1,6 @@
 import { assets, workData } from "@/assets/assets";
 import Image from "next/image";
+import { FaLocationArrow } from "react-icons/fa";
 
 export default function Projucts({ isDarkMode }: any){
     return(
@@ -19,7 +20,8 @@ export default function Projucts({ isDarkMode }: any){
                             <p className="text-sm text-gray-700">{project.description}</p>
                         </div>
 
-                        <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-gray-300 transition">
+                        <div className="border rounded-full border-black w-9 aspect-square flex items-center 
+                        justify-center shadow-[2px_2px_0_#000] group-hover:bg-gray-300 transition">
                             <Image src={assets.send_icon} alt="" className="w-5"/>
                         </div>
                     </div>
@@ -28,8 +30,8 @@ export default function Projucts({ isDarkMode }: any){
                 ))}
             </div>
                 
-                <a href="" className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto hover:bg-lightHover dark:text-white dark:border-white dark:hover:bg-darkHover">Show more <Image src={isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt="" 
-                className="w-4"/>  </a>
+                <a href="" className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 
+                px-10 mx-auto hover:bg-lightHover dark:text-white dark:border-white dark:hover:bg-darkHover">Show more {isDarkMode ? <FaLocationArrow />: <FaLocationArrow/>} </a>
 
         </div>
     )
