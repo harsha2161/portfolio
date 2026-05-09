@@ -1,5 +1,4 @@
 import {assets, infoList, toolsData} from '@assets/assets'
-
 import Image from "next/image";
 
 export default function About({ isDarkMode }: any){
@@ -9,6 +8,7 @@ export default function About({ isDarkMode }: any){
             <h2 className="text-center mt-5 text-5xl font-bold">About Me</h2>
         
             <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-10'>
+                
                 <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
                     <Image src={assets.user_image} alt='user' className='w-full rounded-3xl'/>
                 </div>
@@ -31,32 +31,11 @@ export default function About({ isDarkMode }: any){
                                 <p className='text-gray-600 text-sm dark:text-white/80'>{description}</p>
                             </li>
                             </a>
-                            
-
                         ))}
                     </ul>
 
-                   {/* <h4 className='my-6 text-gray-700 dark:text-white/80'>Tools</h4>*/}
-
-                   {/* <ul className='flex items-center gap-3 sm:gap-5'>
-                        {toolsData.map( (data, index)=>(
-                            <li key={index} className='flex items-center justify-center w-auto sm:w-14 aspect-square border border-gray-400 rounded-lg 
-                            cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white flex-col'>
-                                <div>
-                                    <data.icon className='text-2xl text-black dark:text-white text-blue-500 mt-2' />
-                                </div> 
-
-                                <div className='flex flex items-center justify-center text-center'>
-                                    <h1 className='font-bold'>{data.name}</h1>   
-                                </div>                    
-                                
-                            </li>
-                           
-                        ))}
-                    </ul>*/}
                 </div>
             </div>
-           
         </div>
     ) 
 }

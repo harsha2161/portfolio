@@ -14,10 +14,13 @@ export default function Skills({ isDarkMode }: any){
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10">                
               
-                <div className="border border-gray-400 rounded-lg px-6 py-8 h-full w-full
-                hover:shadow-2xl cursor-pointer hover:-translate-y-2 transition-all duration-500 hover:bg-gray-300 dark:hover:bg-darkHover dark:hover:shadow-white">    
+                <div className="border border-gray-400 rounded-lg px-6 py-8 h-full w-full hover:shadow-2xl cursor-pointer 
+                hover:-translate-y-2 transition-all duration-500 hover:bg-gray-300 dark:hover:bg-darkHover dark:hover:shadow-white">    
+                    
                     <h1 className="mb-8 font-bold border-b-2 border-gray-400 pb-2 text-center text-xl">Frontend Development</h1>
+                   
                     <div className="flex flex-wrap justify-center gap-8">
+
                         <div className="flex flex-col items-center justify-center gap-2">
                             <FaHtml5 className="text-5xl text-orange-500"/> <p className="text-sm font-medium">HTML</p>
                         </div>
@@ -39,7 +42,9 @@ export default function Skills({ isDarkMode }: any){
                 
                 <div className="border border-gray-400 rounded-lg px-6 py-8 h-full w-full
                 hover:shadow-2xl cursor-pointer hover:-translate-y-2 transition-all duration-500 hover:bg-gray-300 dark:hover:bg-darkHover dark:hover:shadow-white">
+                    
                     <h1 className="mb-8 font-bold border-b-2 border-gray-400 pb-2 text-center text-xl">Backend Development</h1>
+                    
                     <div className="flex flex-wrap justify-center gap-8">
                         <div className="flex flex-col items-center justify-center gap-2">
                             <FaJava  className="text-5xl text-red-500"/> <p className="text-sm font-medium">Java</p>
@@ -59,7 +64,9 @@ export default function Skills({ isDarkMode }: any){
     
                 <div className="border border-gray-400 rounded-lg px-6 py-8 h-full w-full
                 hover:shadow-2xl cursor-pointer hover:-translate-y-2 transition-all duration-500 hover:bg-gray-300 dark:hover:bg-darkHover dark:hover:shadow-white">
+                    
                     <h1 className="mb-8 font-bold border-b-2 border-gray-400 pb-2 text-center text-xl">Tools & Databases</h1>
+                    
                     <div className="flex flex-wrap justify-center gap-8">
                         <div className="flex flex-col items-center justify-center gap-2">
                             <DiMongodb   className="text-5xl text-green-500"/> <p className="text-sm font-medium">MongoDB</p>
@@ -75,7 +82,6 @@ export default function Skills({ isDarkMode }: any){
                         </div>
                     </div>
                 </div>
-            
             </div>
 
         </div>
