@@ -91,7 +91,8 @@ export default function Navbar({ isDarkMode, setDarkMode }: any){
                     <li><a className='font-bold' onClick={closeMenu} href="#about">About Me</a></li>
                     <li><a className='font-bold' onClick={closeMenu} href="#skill">Skills</a></li>
                     <li><a className='font-bold' onClick={closeMenu} href="#education">Education</a></li>
-                    <li><a className='font-bold' onClick={closeMenu} href="#projucts">My Work</a></li>
+                     <li><a className='font-bold' onClick={closeMenu} href="#projucts">Projects</a></li>
+                    <li><a className='font-bold' onClick={closeMenu} href="#blogs">Blogs</a></li>
                     <li><a className='font-bold' onClick={closeMenu} href="#contect">Contect Me</a></li>
               
             </ul>
