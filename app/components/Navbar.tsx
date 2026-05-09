@@ -53,6 +53,7 @@ export default function Navbar({ isDarkMode, setDarkMode }: any){
                 <li><a className='font-bold' href="#skill">Skills</a></li>
                 <li><a className='font-bold' href="#education">Education</a></li>
                 <li><a className='font-bold'href="#projucts">Projects</a></li>
+                <li><a className='font-bold'href="#blogs">Blogs</a></li>
                 <li><a className='font-bold' href="#contect">Contect</a></li>
 
             </ul>

@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar"
 import Projucts from "./components/Projucts";
 import Skills from "./components/skills";
 import Education from "./components/education";
+import Blogs from "./components/Blogs";
 
 export default function Home() {
 
@@ -44,6 +45,7 @@ export default function Home() {
       <Skills isDarkMode={isDarkMode} />
       <Education isDarkMode={isDarkMode} />
       <Projucts isDarkMode={isDarkMode} />
+      <Blogs isDarkMode={isDarkMode} />
       <Contacts isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />
     </>
