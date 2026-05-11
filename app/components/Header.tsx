@@ -16,10 +16,12 @@ export default function Header({ isDarkMode }: any){
             University of Kelaniya, with academic training in software development.</p>
 
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-                <a href="#contect" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent transition-all duration-300 hover:scale-105 hover:bg-gray-800 dark:hover:bg-white/10 hover:shadow-lg'>
+                <a href="#contect" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center
+                 gap-2 dark:bg-transparent transition-all duration-300 hover:scale-105 hover:bg-gray-800 dark:hover:bg-white/10 hover:shadow-lg'>
                 contact me<FiArrowRight className="text-lg" /></a>
 
-                <a href="/harsha_cv.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:bg-white dark:text-black transition-all duration-300 hover:scale-105 hover:bg-gray-100 dark:hover:bg-gray-200 hover:shadow-lg'>
+                <a href="/harsha_cv.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center 
+                gap-2 dark:bg-white dark:text-black transition-all duration-300 hover:scale-105 hover:bg-gray-100 dark:hover:bg-gray-200 hover:shadow-lg'>
                 my resume<FiDownload className="text-lg" /></a>
             </div>
             

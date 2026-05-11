@@ -64,7 +64,8 @@ export default function Navbar({ isDarkMode, setDarkMode }: any) {
                 <div className='flex items-center gap-4'>
 
                     <button onClick={() => setDarkMode((prev: any) => !prev)} suppressHydrationWarning>
-                        {isDarkMode ? <IoMdMoon className='text-3xl transition-transform duration-300 hover:scale-110' /> : <PiSunDimFill className='text-3xl transition-transform duration-300 hover:scale-110' />}
+                        {isDarkMode ? <IoMdMoon className='text-3xl transition-transform duration-300 hover:scale-110' /> : 
+                        <PiSunDimFill className='text-3xl transition-transform duration-300 hover:scale-110' />}
                     </button>
 
                     <a href="#contect" className='hidden md:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 dark:border-white/50'>Contact
@@ -76,15 +77,13 @@ export default function Navbar({ isDarkMode, setDarkMode }: any) {
                 </div>
 
 
-                {/* Mobile Menu Overlay */}
-                <div
-                    onClick={closeMenu}
-                    className={`fixed top-0 left-0 w-screen h-screen bg-black/20 backdrop-blur-sm z-40 md:hidden transition-opacity duration-500 ${isMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
-                />
+              
+                <div onClick={closeMenu} className={`fixed top-0 left-0 w-screen h-screen bg-black/20 backdrop-blur-sm z-40 md:hidden 
+                transition-opacity duration-500 ${isMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}/>
 
-                {/* mobile menu*/}
+              
                 <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50
-            h-screen bg-rose-50 dark:bg-darkHover dark:text-white transition duration-500 rounded-l-2xl border-l-2 backdrop-opacity-50'>
+                h-screen bg-rose-50 dark:bg-darkHover dark:text-white transition duration-500 rounded-l-2xl border-l-2 backdrop-opacity-50'>
 
                     <div className='absolute right-6 top-6 flex items-center gap-4'>
                         <button onClick={() => setDarkMode((prev: any) => !prev)} suppressHydrationWarning className='transition-transform duration-300 hover:scale-110'>
