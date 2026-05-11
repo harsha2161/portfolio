@@ -13,6 +13,27 @@ export const assets = {
     header_bg_color,
 };
 
+export const blogData = [
+    {
+        title: 'Complete understanding to JWT',
+        description: '',
+        bgImage: '/jwt.png',
+        link : 'https://medium.com/@prabhathharsha77/complete-understanding-to-jwt-json-web-tokens-7939fc6066d6',
+    },
+    {
+        title: 'A Journey into 16-bit Operating System Development',
+        description: '',
+        bgImage: '/os.png',
+        link : 'https://medium.com/@prabhathharsha77/building-hrshos-a-journey-into-16-bit-operating-system-development-6479ff0c3c81',
+    },
+    {
+        title: '3D-Central Intelligence Agency (CIA)',
+        description: '',
+        bgImage: '/cia.png',
+        link : 'https://medium.com/@prabhathharsha77/central-intelligence-agency-cia-9a06a9bd1c82',
+    },
+]
+
 export const workData = [
     {
         title: 'Gift Lovers E-commerce websites',
