@@ -33,7 +33,7 @@ export default function Contacts({ isDarkMode }: any) {
 
 
     return (
-        <div id="contect" className='w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-10 
+        <div id="contect" className='w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-20 
         bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none'>
 
             <h2 className="text-center text-5xl font-bold">Get in touch</h2>
