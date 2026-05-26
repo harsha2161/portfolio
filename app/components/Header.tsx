@@ -20,7 +20,7 @@ export default function Header({ isDarkMode }: any){
                  gap-2 dark:bg-transparent transition-all duration-300 hover:scale-105 hover:bg-gray-800 dark:hover:bg-white/10 hover:shadow-lg'>
                 contact me<FiArrowRight className="text-lg" /></a>
 
-                <a href="/harsha_cv.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center 
+                <a href="/Prabhath_Harsha_Full_Stack_Developer.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center 
                 gap-2 dark:bg-white dark:text-black transition-all duration-300 hover:scale-105 hover:bg-gray-100 dark:hover:bg-gray-200 hover:shadow-lg'>
                 my resume<FiDownload className="text-lg" /></a>
             </div>

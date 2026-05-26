@@ -1,7 +1,7 @@
 
 export default function Education({ isDarkMode }: any){
     return(
-      <div id="education" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-25">
+      <div id="education" className="w-full px-[5%] sm:px-[10%] lg:px-[12%] py-10 scroll-mt-30">
             
             <h2 className="text-center text-5xl font-bold pb-20">Education</h2>  
 
